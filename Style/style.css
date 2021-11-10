@@ -1,0 +1,199 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}*/
+
+.container{
+    /*background-color: green;*/
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*по центру*/
+    margin: 40px auto;
+}
+
+.nav-li{
+    display:inline-block;
+    justify-self: auto;
+} 
+
+.nav-li:not(:last-of-type){
+    margin-right: 90px;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover{  /*псевдокласс*/
+   color: #FA4A0C;
+}
+
+.app{
+    background-image: url('../img/bg1.png');
+    color: white;
+    text-align: center;
+    padding: 80px 0 162px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.app-pretitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30;
+    
+}
+
+.app-title{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 600;
+    margin: 10px auto;
+}
+
+.app-text{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54;
+}
+
+.button{
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px;
+    cursor: pointer;
+    
+}
+
+/* .button{
+    background: #FA4A0C;
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    margin-right: 67px;
+}*/
+
+.button:first-of-type{
+    background: #FA4A0C; 
+    border: 1px solid #FA4A0C;
+    margin-right: 67px;  
+}
+
+.button:last-of-type{
+    background: none;    
+    border: 1px solid white;
+}
+
+.down-app{
+    background-image: url('../img/bg2.png');
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 141px 0 130px; /*отступ сверху лево/право Снизу*/
+}
+
+.order{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px; /* высота тексата*/
+    margin: 0 10px;
+}
+
+.order-text{
+    font-size: 24px;
+    line-height: 38px;
+    margin: 20px 0 60; /*отступ от верхнего лево/право и от нижнего*/
+}
+
+.button2{
+    
+    height: 64px;
+    color: white;
+    border-radius: 10px;
+    line-height: 40px; /* сам текст*/
+    cursor: pointer; /* курсор ручка с пальчиком*/
+    margin: 50px 0 ;
+}
+
+
+.button2:first-of-type{
+    background:#FA4A0C ;
+    border: 1px solid #FA4A0C;
+    width: 142px;
+    margin-right: 16px;
+}
+
+.button2:last-of-type{
+    background: none;    
+    border: 1px solid white;
+    width: 173px;
+}
+
+.how{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    padding: 56px 0 70px;
+}
+ 
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px; /*то что немного изменил*/
+}
+
+.mobile-pretitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+
+.mobile-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 480px; /* перенос по ширине максимальня ширина*/
+}
+
+.mobile-text{
+    font-weight: 500;
+    font-size: 24px;
+    color: #737373;
+    max-width: 467;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*по центру*/
+    margin: 40px auto;
+}
+
+.foot-text{
+    height: 18px; 
+    color: #5C5C5C;
+}
